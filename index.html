@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content=""width=device-width, initial-scale="1.0">
+
+
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:100" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="stylesheet.css"/>
+	<script src="index.js"></script>
+
+</head>
+<body>        
+	<a href="#"><button onclick="topFunction()" id="myBtn" title="Go to top">Top ⇧</button></a>
+
+	<nav id = "top" class="home navbar navbar-expand-lg navbar-light bg-info">
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarText">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item active">
+					<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#about-me">About Me</a>
+				</li>
+				<!--
+				<li class="nav-item">
+					<a class="nav-link" href="#research">Research and Projects</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#media">Media Presence</a>
+				</li>
+				-->
+			</ul>
+		</div>
+
+		<div>
+			<ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.linkedin.com/in/alexander-sherzai-665694256/" target="_blank" data-bs-target="#myModal" data-bs-toggle="modal"><img style="width: 25px" src="images/linkedin.svg"/></a>
+                </li>
+				<li class="nav-item">
+                    <a class="nav-link" href="https://github.com/alexsherzai" target="_blank" data-bs-target="#myModal" data-bs-toggle="modal"><img style="width: 25px" src="images/github-mark.svg"/></a>
+                </li>
+            </ul>
+		</div>
+	</nav>
+	<div class="container justify-content-center">
+		<div class="row">
+			<div class="header col">
+				<h1 class="mb-5"><strong>Alexander Sherzai</strong></h1>
+				<h4 class="mb-5"><span style="font-size: 28px">Welcome to my site!</span><br>I am an <span class="bold">AI Engineer</span> and <span class="bold">Data Scientist</span>.</h4>
+				<h4 class="mb-5">I am on a mission to use the marvels of <span class="bold">Artificial Intelligence</span> and the latest modern technology to improve <span class="bold">quality of life</span> through scientific research and entrepreneurship.</h4>
+				<h4 class="mb-5"> Contact:
+					<ul class="mx-5">
+						<li>Email: <a href="mailto:@alexandersherzai@gmail.com">alexandersherzai@gmail.com</a></li>
+						<li>Phone: +1 310-850-0920</li>
+					</ul>
+				</h4>
+				<div class="col text-center">
+					<a href="#about-me"><div class="down-arrow"></div></a>
+				</div>
+			</div>
+			<div class="prof-photo-cont col">
+				<img class="prof-photo" src="images/alexsherzai-bio-photo-crop.jpg" alt="Professional Image"/>
+			</div>
+		</div>
+		<div class="row mt-5" id="about-me">
+			<h1 class="mb-5 col text-center"><strong>About Me</strong></h1>
+		</div>
+		<div class="row">
+			<div class="row mb-5">
+				<div class="col box">
+					<h1 class="mb-5 text-center"><strong>Biography</strong></h1>
+					<h4 class="mb-5">I started my undergraduate degree at <span class="bold">13</span> years of age through the <span class="bold">Early Entrance Program</span> at California State University, 
+						Los Angeles. I graduated at the age of <span class="bold">17</span> with a B.S. in <span class="bold">Computer Science</span> 
+						and a Minor in <span class="bold">Mathematics</span>. <br><br>I am pursuing a <span class="bold">Master's</span> degree in Artificial Intelligence with hopes of doing research in Natural Language Processing, Machine Learning, and Computational Biology.
+					<br><br>I am currently doing research at the junction between topics including NLP, Computer Vision, and the <span class="bold">Cognitive Sciences</span>. I am seeking research opportunities on these topics to solve <span class="bold">real world</span> issues.</h4>
+					<h5 class="text-center"><a href="images/CV_AS_12-04.pdf" target="_blank">View my Resume</a></h5>
+				</div>
+				<div class="col text-center">
+					<h1 class="mb-5"><strong>Skills</strong></h1>
+					<h4 class="mb-5">Programming in Java, Javascript, ReactJS, NodeJS, VueJS, Python, HTML/CSS, C#, Swift, R and SQL</h4>
+					<h4 class="mb-5">AI and Machine Learning frameworks such as Tensorflow, Keras, Pytorch, OpenCV, Mask RCNN</h4>
+					<h4 class="mb-5">Statistics, data analysis and visualization, discrete math, linear algebra</h4>
+					<h4 class="mb-5">General Knowledge in the sciences and topics such as Neuroscience, Biochemistry, Engineering</h4>
+					<h4 class="mb-5">Public Speaking, Team building, Collaborating and Leading Groups Towards a Common Vision</h4>
+				</div>
+			</div>
+		</div>
+		<!--
+		<div class="row mt-5" id="research">
+			<h1 class="mb-5 col text-center"><strong>Research and Projects</strong></h1>
+		</div>
+		<div class="row box">
+			<div class="row mb-5">
+			</div>
+		</div>
+		<div class="row mt-5" id="media">
+			<h1 class="mb-5 col text-center"><strong>Media Presence</strong></h1>
+		</div>
+		<div class="row">
+			<div class="row">
+				<div class="col">
+					<h1 class="mb-5 text-center"><strong>Topics of Interest</strong></h1>
+					<h4 class="mb-5">I started my undergraduate degree at <span class="bold">13</span> years of age through the <span class="bold">Early Entrance Program</span> at California State University, 
+						Los Angeles. I graduated at the age of <span class="bold">17</span> with a B.S. in <span class="bold">Computer Science</span> 
+						and a Minor in <span class="bold">Mathematics</span>. <br><br>I am pursuing a <span class="bold">Master's</span> degree in Artificial Intelligence with hopes of doing research in Natural Language Processing, Machine Learning, and Computational Biology.</h4>
+				</div>
+				<div class="col text-center">
+					<h1 class="mb-5"><strong>Catalog</strong></h1>
+					<h4 class="mb-5">Programming in Java, Javascript, ReactJS, NodeJS, VueJS, Python, HTML/CSS, C#, Swift, R and SQL</h4>
+					<h4 class="mb-5">AI and Machine Learning frameworks such as Tensorflow, Keras, Pytorch, OpenCV, Mask RCNN</h4>
+					<h4 class="mb-5">Public speaking, team building, collaborating and leading groups</h4>
+				</div>
+			</div>
+		</div>
+		-->
+	</div>
+</body>
+</html>
