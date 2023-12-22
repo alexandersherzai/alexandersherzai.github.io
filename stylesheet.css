@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Poppins-Regular', sans-serif;
+    font-family: 'Calibri', sans-serif;
     box-sizing: border-box;
 }
 body {
@@ -24,7 +24,8 @@ h4 {
     font-size: 22px;
 }
 .bold {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Calibri', sans-serif;
+    font-weight: 700;
     color: #0dcaf0;
 }
 
@@ -112,7 +113,7 @@ h4 {
     display: none; /* Hidden by default */
     position: fixed; /* Fixed/sticky position */
     font-family: "Poppins", sans-serif;
-    bottom: 20px; /* Place the button at the bottom of the page */
+    bottom: 30px; /* Place the button at the bottom of the page */
     right: 30px; /* Place the button 30px from the right */
     z-index: 99; /* Make sure it does not overlap */
     border: solid 1px white;
@@ -143,4 +144,8 @@ h4 {
     100% {
         opacity: 1;
     }
+}
+
+#media {
+    border-top: solid 1px white;
 }
